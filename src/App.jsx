@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Team from './components/Team'
 import Programs from './components/Programs'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
     <About/>
     <Team/>
     <Programs/>
+    <Footer/>
     {/* <Person/> */}
     </>
   )
