@@ -31,7 +31,7 @@ function Team() {
 
     // Ref for the main grid container to trigger animations
     const gridRef = useRef(null);
-    const isGridInView = useInView(gridRef, { once: true, margin: '0px 0px -100px 0px' });
+    const isGridInView = useInView(gridRef, { once: true, margin: '40px 0px 150px 0px' });
 
     // Framer Motion variants for individual team member cards
     const cardVariants = {
