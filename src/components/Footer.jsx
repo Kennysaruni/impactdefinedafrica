@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className='bg-gray-800 text-white w-full font-["Inter"]' id='contact'> {/* Added font-['Inter'] for consistency */}
+        <footer className='bg-gray-800 text-white ' id='contact'> {/* Added font-['Inter'] for consistency */}
             <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8'> {/* Changed container to max-w-7xl and added responsive padding */}
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left'> {/* Responsive grid, text alignment for mobile vs desktop */}
                     {/* Brand Info */}
