@@ -48,7 +48,7 @@ function Team() {
     };
 
     return (
-        <section className='py-16 sm:py-20 bg-gray-50 w-full ' id='team'>
+        <section className='py-16 sm:py-20 w-full ' id='team'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'> {/* Centered text and added padding */}
                 <h1 className='text-3xl md:text-5xl text-gray-800 font-bold tracking-tight mb-4'>
                     Team and People
