@@ -28,7 +28,7 @@ function About() {
     };
 
     return (
-        <section className='py-16 sm:py-20 bg-gray-50 ' id='about'>
+        <section className='py-16 sm:py-20  bg-gray-50 ' id='about'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'> {/* Added padding */}
                 {/* Main About Us content - Image and Description */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center mb-16'> {/* Adjusted gap */}
