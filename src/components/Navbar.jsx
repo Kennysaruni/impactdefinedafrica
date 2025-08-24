@@ -36,7 +36,8 @@ function Navbar() {
                 {isMenuOpen && (
                     <nav
                         className=' md:hidden fixed inset-0 z-50 bg-white shadow-lg py-4 space-y-8 border-t border-gray-200 flex flex-col items-center justify-center space-x-8'>
-                        <button className='absolute top-7 right-4 p-2 rounded-md text-gray-700 hover:text-amber-700 mat'>
+                        <button className='absolute top-7 right-4 p-2 rounded-md text-gray-700 hover:text-amber-700 '
+                        onClick={toggleMenu}>
                             <span className='material-icons text-4xl'>close</span>
                         </button>
                         <a href="#about"
